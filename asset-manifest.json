@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/bluescipii/physical-workshop.git/static/css/main.c7ebab60.chunk.css",
-    "main.js": "/bluescipii/physical-workshop.git/static/js/main.7942bfe5.chunk.js",
-    "main.js.map": "/bluescipii/physical-workshop.git/static/js/main.7942bfe5.chunk.js.map",
-    "runtime-main.js": "/bluescipii/physical-workshop.git/static/js/runtime-main.2bf5b96c.js",
-    "runtime-main.js.map": "/bluescipii/physical-workshop.git/static/js/runtime-main.2bf5b96c.js.map",
-    "static/css/2.7fd08c2a.chunk.css": "/bluescipii/physical-workshop.git/static/css/2.7fd08c2a.chunk.css",
-    "static/js/2.6d13b545.chunk.js": "/bluescipii/physical-workshop.git/static/js/2.6d13b545.chunk.js",
-    "static/js/2.6d13b545.chunk.js.map": "/bluescipii/physical-workshop.git/static/js/2.6d13b545.chunk.js.map",
-    "index.html": "/bluescipii/physical-workshop.git/index.html",
-    "precache-manifest.cdb3f9c8e425f558d75080055811b109.js": "/bluescipii/physical-workshop.git/precache-manifest.cdb3f9c8e425f558d75080055811b109.js",
-    "service-worker.js": "/bluescipii/physical-workshop.git/service-worker.js",
-    "static/css/2.7fd08c2a.chunk.css.map": "/bluescipii/physical-workshop.git/static/css/2.7fd08c2a.chunk.css.map",
-    "static/css/main.c7ebab60.chunk.css.map": "/bluescipii/physical-workshop.git/static/css/main.c7ebab60.chunk.css.map",
-    "static/media/App.css": "/bluescipii/physical-workshop.git/static/media/mplus-1m-medium.44696758.ttf"
+    "main.css": "/physical-workshop/static/css/main.22bb6869.chunk.css",
+    "main.js": "/physical-workshop/static/js/main.93aa4f35.chunk.js",
+    "main.js.map": "/physical-workshop/static/js/main.93aa4f35.chunk.js.map",
+    "runtime-main.js": "/physical-workshop/static/js/runtime-main.b23125bc.js",
+    "runtime-main.js.map": "/physical-workshop/static/js/runtime-main.b23125bc.js.map",
+    "static/css/2.7fd08c2a.chunk.css": "/physical-workshop/static/css/2.7fd08c2a.chunk.css",
+    "static/js/2.6d13b545.chunk.js": "/physical-workshop/static/js/2.6d13b545.chunk.js",
+    "static/js/2.6d13b545.chunk.js.map": "/physical-workshop/static/js/2.6d13b545.chunk.js.map",
+    "index.html": "/physical-workshop/index.html",
+    "precache-manifest.f8f8c915706d30ef0e7ca12a85b04bc9.js": "/physical-workshop/precache-manifest.f8f8c915706d30ef0e7ca12a85b04bc9.js",
+    "service-worker.js": "/physical-workshop/service-worker.js",
+    "static/css/2.7fd08c2a.chunk.css.map": "/physical-workshop/static/css/2.7fd08c2a.chunk.css.map",
+    "static/css/main.22bb6869.chunk.css.map": "/physical-workshop/static/css/main.22bb6869.chunk.css.map",
+    "static/media/App.css": "/physical-workshop/static/media/mplus-1m-medium.44696758.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.2bf5b96c.js",
+    "static/js/runtime-main.b23125bc.js",
     "static/css/2.7fd08c2a.chunk.css",
     "static/js/2.6d13b545.chunk.js",
-    "static/css/main.c7ebab60.chunk.css",
-    "static/js/main.7942bfe5.chunk.js"
+    "static/css/main.22bb6869.chunk.css",
+    "static/js/main.93aa4f35.chunk.js"
   ]
 }
