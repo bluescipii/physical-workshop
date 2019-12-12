@@ -3,9 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "baffle": "^0.3.6",
+    "baffle-react": "0.0.2",
+    "codemirror": "^5.49.2",
+    "css-to-object": "^1.1.0",
     "react": "^16.10.1",
+    "react-ace": "^8.0.0",
+    "react-codemirror2": "^6.0.0",
     "react-dom": "^16.10.1",
-    "react-scripts": "3.2.0"
+    "react-pose": "^4.0.8",
+    "react-scripts": "3.2.0",
+    "react-split-pane": "^0.1.89",
+    "react-spring": "^8.0.27",
+    "styled-components": "^4.4.1",
+    "vectory-lib": "0.0.3",
+    "webpack": "^4.41.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.0.1"
   }
 }

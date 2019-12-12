@@ -1,22 +1,552 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Cousine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+
+@font-face {
+    font-family: 'DejaVuSansMono';
+    src: url('./fonts/DejaVuSansMono.ttf') format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('./fonts/Inconsolata.ttf') format('truetype');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+    font-family: 'SourceCodePro';
+    src: url('./fonts/SourceCodePro-Medium.ttf') format('truetype');
 }
 
-.App-link {
-  color: #09d3ac;
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+
+@font-face {
+    font-family: 'Hack Regular';
+    src: url('./fonts/Hack-Regular.ttf') format('truetype');
 }
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+
+
+@font-face {
+    font-family: 'iosevka medium';
+    src: url('./fonts/iosevka-medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mplus-1m-medium';
+    src: url('./fonts/mplus-1m-medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MesloLGMregular';
+    src: url('./fonts/MesloLGM-Regular.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+@font-face {
+    font-family: 'Monoid Regular';
+    src: url('./fonts/Monoid-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Code New Roman';
+    src: url('./fonts/CodeNewRoman-aOAK.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ProggyClean';
+    src: url('./fonts/ProggyClean.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VictorMonoRegular';
+    src: url('./fonts/VictorMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Hermit Regular';
+    src: url('./fonts/Hermit-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'VGA';
+    src: url('./fonts/Perfect-DOS-VGA-437.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NotCourierSans';
+    src: url('./fonts/NotCourierSans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nouveau_IBM';
+    src: url('./fonts/Nouveau_IBM.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap');
+
+@font-face {
+    font-family: 'consola';
+    src: url('./fonts/consola.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'D2Coding';
+    src: url('./fonts/D2Coding-Ver1.3.2-20180524.ttf') format('truetype');
+}
+
+
+
+@font-face {
+    font-family: 'Apl2741';
+    src: url('./fonts/Apl2741.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
+
+
+
+/*----------------*/
+
+
+* {
+cursor: none;
+
+}
+
+body{
+    
+	font-family: 'Cousine';
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width:100%;
+    height:100%;
+    color:#000000;
+    
+}
+
+
+button{
+
+    background: none;
+    border: none;
+    cursor: none;
+    outline: inherit;
+}
+
+
+.nav{
+    background-color: transparent;
+    border:0;
+    
+}
+
+
+
+#mousecursor{
+	font-family: inherit;
+	font-size:1vw;
+    position: absolute;
+    float: left;
+    z-index:999;
+    color:black;
+
+}
+
+
+
+#fontarraybuttonleft{
+    font-family: inherit;
+    position:absolute;
+    bottom:10vh;
+    /*background-color: pink;*/
+    font-size: 60vh;
+    z-index: 12;
+  
+}
+
+#fontarraybuttonright{
+    font-family: inherit;
+    position: absolute;
+    
+  /*  background-color: red;*/
+    font-size: 60vh;
+    top:0vh;
+    left:15vw;
+    /*background-color: red;*/
+    z-index: 12;
+    
+}
+
+
+#readmebutton{
+    font-family: inherit;
+    position:absolute;
+    right:0;
+    font-size: 30vh;
+    /*background-color: pink;*/
+    z-index: 1;
+  
+   
+}
+
+#readmeArrow{
+    position:absolute;
+    font-size: 30vh;
+    font-family: inherit;
+    bottom:5vh;
+    margin-left:50vw;
+    /*background-color: white;*/
+}
+
+#typefontbutton{
+    font-family: inherit;
+    position: absolute;
+    right:0;
+    font-size: 60vh;
+    bottom: 10vh;
+}
+
+
+#dictionaryleft{
+    font-family: inherit;
+    position: absolute;
+    left:30vw;
+    font-size: 60vh;
+    bottom: 10vh;
+    z-index: 1;
+}
+
+#dictionaryright{
+    font-family: inherit;
+    position: absolute;
+    left:60vw;
+    font-size: 60vh;
+    bottom: 10vh;
+   
+}
+
+#footer{
+    position:absolute;
+    bottom: 0;
+    height:10vh;
+    background-color: transparent;
+    width:100%;
+    z-index: 998;
+}
+
+#leftfooter{
+    position: absolute;
+    left:0;
+    font-size: 10vh;
+    color:red;
+    /*background-color: pink;*/
+}
+
+#rightfooter{
+    position: absolute;
+    right:0;
+    font-size:10vh;
+    color:blue;
+}
+
+
+#fontarraypage{
+    position: absolute;
+    display: flex;
+    background-color: white;
+    height:90vh;
+    left:0
+    ;
+    width:0px;
+    z-index: 9;
+    overflow: hidden;
+}
+
+
+
+#arraycarrier{
+    z-index: 300;
+    margin-top:1vw;
+    width:100%;
+    /*background-color: red;*/
+
+}
+
+.fontarray{
+    font-size: 1.5vw;
+    color:blue;
+    z-index: 600;
+}
+
+#description{
+
+    height: 50%;
+    /*background-color:red;*/
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    overflow: scroll;
+    width:2000px;
+    display: inline;
+    /*background-color: pink;*/
+
+
+}
+
+
+#link{
+    height: 60%;
+    font-size: 3vw;
+    color:red;
+    width:15%;
+    overflow: visible;
+    word-break: break-all;
+    display: inline;
+    float: left
+    /*background-color:blue;*/
+}
+
+
+.arraytitle{
+    display: inline;
+    font-size: 1.5vw;
+}
+
+#arraymain{
+    z-index: 12;
+    /*background-color: red;*/
+}
+
+#descontainer{
+    display: flex;
+    /*background-color: blue;*/
+
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.juseok{
+    color: black;
+    font-size:10vw;
+
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+#lastcol{
+
+    display: flex;
+    /*background-color:red;*/
+    width:80%;
+    float:right;
+}
+
+#rightcor{
+    position: absolute;
+    left:70%;
+    margin-top:40vh;
+         animation-name: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+    
+}
+
+#rightcor:hover{
+  animation: 0;
+  
+}
+
+
+#leftcor{
+ 
+    margin-left:1vw;
+    margin-right:-2vw;
+}
+
+#readmepage{
+    position: absolute;
+    top:0;
+    left:0;
+    height:90vh;
+    width:100vw;
+    background-color: white;
+    z-index: 10;
+}
+
+#leftreadme{
+    position:absolute;
+   
+    height: 20vh ;
+    width:50vw;
+    /*margin-top: 100px;*/
+    background-color: white;
+    font-size: 2em;
+    line-height: 1.5em;
+
+     z-index: 40;
+     overflow: scroll;
+}
+
+#rightreadme{
+    position:absolute;
+    /*background-color:green;*/
+    width:50vw;
+    height:20vh;
+    margin-left: 50vw;
+    font-size: 2em;
+    line-height: 1.5em;
+     overflow: scroll;
+     z-index: 40;
+}
+
+
+#typepage{
+    position: absolute;
+    z-index: 30;
+    width:100vw;
+    height:90vh;
+    background-color: skyblue;
+    margin-left:100vw;
+}
+
+#closetypepage{
+    position:absolute;
+    font-size: 60vh;
+    right:0;
+    bottom:0;
+    color:black;
+    font-family: inherit;
+    z-index: 920;
+}
+
+#footerbackground{
+    position: absolute;
+    background-color: black;
+    bottom:0;
+    width:100vw;
+    height:10vh;
+
+}
+
+#typewhitebackground{
+    position:absolute;
+    top:0;
+    height:100vh;
+    right:0;
+    width:10px;
+    z-index: 900;
+    background-color: white;
+}
+
+#dictionarymain{
+    position:absolute;
+    width:20%;
+    height: 90vh;
+    top:0;
+    left:0;
+
+  
+    display: flex;
+}
+
+#dictionarypage{
+    position: absolute;
+    width:100vw;
+    left:0;
+    top:0;
+    height:100vh;
+    background-color: white;
+ 
+}
+
+#wordcontainer{
+
+  
+    width:50%;
+    height:100%;
+    overflow-y: scroll;
+    overflow-x: visible;
+}
+
+#dicdesc{
+    
+    width:30%;
+    height:100%;
+    font-size:1.4em;
+    line-height: 1.4em;
+    overflow:scroll;
+
+
+}
+
+.words{
+    font-family: inherit;
+    font-size:5em;
+    display: block;
+    /*background-color: pink;*/
+    overflow-x: visible;
+
+
+
+}
+
+#butfont{
+    position:absolute;
+    top:40vh;
+    z-index: 200;
+    font-family:inherit;
+    font-size: 5em;
+    background-color:white;
+}
+
+#marquee{
+    position: absolute;
+    background: transparent;
+    z-index: 300;
+    width:20vw;
+    overflow: hidden;
+    font-size: 8em;
+    font-family: inherit;
+    color:red;
+    right: 25vw;
+    top:25vh;
+    transform: rotate(270deg);
+   
+}
+
+
+.morph-section {
+
+    font-family: inherit;
+  position: absolute;
+    font-size: 2vw;
+    /*background-color: red;*/
+    margin-top: 5vw;
+    margin-left: 25vw;
+    color:black;
+}
+
+.secondrow{
+    /*margin-top: 1em;*/
+
+}
+
+
